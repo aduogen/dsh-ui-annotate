@@ -1,0 +1,48 @@
+{
+  "name": "dsh-ui-annotate",
+  "version": "0.1.0",
+  "description": "Point at any UI element — in the built-in browser page or in DSH itself — and turn it into a precise, selector-anchored change request.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": {
+      "default": "./client.js"
+    },
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "annotate",
+    "ui",
+    "element-picker"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aduogen/dsh-ui-annotate.git"
+  },
+  "homepage": "https://github.com/aduogen/dsh-ui-annotate#readme",
+  "bugs": {
+    "url": "https://github.com/aduogen/dsh-ui-annotate/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

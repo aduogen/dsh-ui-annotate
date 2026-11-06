@@ -1,0 +1,6 @@
+# UI annotator: element picking over the built-in browser and over the Harness UI itself.
+# The whole capability lives in the Client half; the Host row only has to exist so the
+# Client bundle is composed into the page.
+- insert:
+    - id: ui-annotate
+      name: 'dsh-ui-annotate'

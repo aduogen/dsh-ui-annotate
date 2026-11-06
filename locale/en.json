@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Annotate UI",
+    "description": "Click the part of the interface you want changed — in the built-in browser page or in DSH itself — and get a change request carrying its selector, styles and owning component, sent alone or collected into a batch."
+  }
+}

@@ -1,0 +1,14 @@
+# Normalize to LF in the repository; check out per platform.
+* text=auto eol=lf
+
+# Keep the executable bundles and config exactly as authored.
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+
+# Binary assets must never be touched.
+*.png binary
+*.jpg binary
+*.webp binary
