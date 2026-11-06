@@ -61,6 +61,7 @@ Nothing reaches an agent until you send, and in one-at-a-time mode nothing sends
 
 ## Requirements
 
+- **DSH `>=0.2.0`** (declared in `engines.dsh`).
 - DSH Desktop (the browser carrier is an Electron `<webview>`; the plain Web GUI has no guest document,
   so the picker covers only the DSH interface there).
 - No dependencies, no build step, no install scripts.

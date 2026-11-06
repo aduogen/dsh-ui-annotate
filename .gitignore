@@ -1,6 +1,7 @@
 # Dependencies (never expected here: this bundle has none)
 node_modules/
 pnpm-lock.yaml
+package-lock.json
 
 # Editor / OS noise
 .vscode/

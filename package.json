@@ -29,6 +29,10 @@
     "element-picker"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aduogen/dsh-ui-annotate.git"
@@ -44,5 +48,10 @@
     "client": {
       "platform": "web"
     }
+  },
+  "devDependencies": {
+    "jsdom": "^31.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   }
 }
